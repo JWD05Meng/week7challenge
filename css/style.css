@@ -74,6 +74,10 @@ main {
   color: #009999;
 }
 
+.banner .input-group {
+  width: 360px;
+}
+
 input::placeholder,
 textarea::placeholder {
   color: #009999 !important;
