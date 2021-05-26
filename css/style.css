@@ -16,6 +16,10 @@ a:hover {
   color: #009999 !important;
 }
 
+.nav-container {
+  max-width: 1770px;
+}
+
 .navbar-brand {
   font-size: 1.5em;
   color: #3399CC !important;
