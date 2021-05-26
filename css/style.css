@@ -53,8 +53,9 @@ main {
 
 .banner {
   background-image: url("../img/hero.jpg");
-  background-size: cover;
-  background-position-y: -200px;
+  background-size: auto;
+  background-position-y: -420px;
+  background-position-x: 20%;
   height: 200px;
   width: 100%;
   max-width:none;
@@ -178,6 +179,12 @@ footer, .address {
   /* max-width: 1000px; */
   line-height: 2em;
   color: #888;
+}
+
+footer {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer ul {
