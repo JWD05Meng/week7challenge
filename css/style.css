@@ -93,6 +93,12 @@ textarea::placeholder {
   font-size: 1.2em;
 }
 
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #009999;
+  border: 0;
+}
+
 .banner .btn:hover {
   background-color: #198754;
 }
