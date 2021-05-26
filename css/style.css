@@ -47,12 +47,17 @@ a:hover {
   border-bottom: 4px solid #CC66CC;
 }
 
+main {
+  max-width: 1770px;
+}
+
 .banner {
   background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position-y: -200px;
   height: 200px;
   width: 100%;
+  max-width:none;
 }
 
 .contactUs input,
@@ -185,6 +190,12 @@ footer ul {
   background-color: white;
   height: 3em;
   width: 3em;
+  transition: all 0.3s;
+}
+
+.icon-cell:hover {
+  color: #fff;
+  background-color: #009999;
 }
 
 .address a {
