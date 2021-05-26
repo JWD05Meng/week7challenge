@@ -1,0 +1,235 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #009999 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  color: #3399CC !important;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  margin: 0 1em;
+  border-bottom: 4px solid #f8f9fa; 
+}
+
+.nav-link.nav-photos:hover,
+.nav-link.nav-photos.active {
+  border-bottom: 4px solid #33CCFF;
+}
+
+.nav-link.nav-videos:hover,
+.nav-link.nav-videos.active {
+  border-bottom: 4px solid #FF6666;
+}
+
+.nav-link.nav-about:hover,
+.nav-link.nav-about.active {
+  border-bottom: 4px solid #33CC66;
+}
+
+.nav-link.nav-contact:hover,
+.nav-link.nav-contact.active {
+  border-bottom: 4px solid #CC66CC;
+}
+
+.banner {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position-y: -200px;
+  height: 200px;
+  width: 100%;
+}
+
+.contactUs input,
+.contactUs select {
+  height: 3em;
+}
+
+.contactUs textarea {
+  height: 12em;
+}
+
+.banner input[type~='search']::placeholder {
+  color: #009999;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #009999 !important;
+}
+
+.banner .btn {
+  width: 80px;
+}
+
+.btn-primary {
+  background-color: #009999;
+  border: 0;
+  font-size: 1.2em;
+}
+
+.banner .btn:hover {
+  background-color: #198754;
+}
+
+#page-number-input {
+  width: 2em;
+  height: 1.5em;
+  margin: 0 0.2em;
+}
+
+.main-color {
+  color: #009999;
+}
+
+.col-12 img {
+  width: 100%;
+}
+
+.card-text-left {
+  color: #ccc;
+}
+
+.card-text-right {
+  color: #999;
+}
+
+.img-container {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0);
+  border: 4px solid rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  font-size: 3em;
+  zoom: 100%;
+  transition: all 0.3s;
+}
+
+.overlay:hover {
+  /* top: 12.5%;
+  left: 12.5%; */
+  transform: scale(0.8, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 4px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.page-navi .btn[disabled] {
+  background-color: #009999;
+}
+
+.page-navi .btn:hover {
+  background-color: #009999;
+  color: white;
+}
+
+.page-navi .btn-inactive {
+  background-color: #ccc;
+}
+
+.btn-darken:hover {
+  background-color: #086969 !important;
+}
+
+.footer-bg {
+  color: #888;
+  background-color: #eee;
+}
+
+.footer-bg h4, h3 {
+  color: #009999;
+}
+
+footer, .address {
+  /* max-width: 1000px; */
+  line-height: 2em;
+  color: #888;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.icon-cell {
+  font-size: 1em;
+  background-color: white;
+  height: 3em;
+  width: 3em;
+}
+
+.address a {
+  display: block;
+  color: #999;
+}
+
+.location iframe {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80%;
+}
+
+.card h5 {
+  font-size: 2em;
+  color:#009999;
+}
+
+.card h6 {
+  font-size: 1.3em;
+  color: #CC6699;
+}
+
+.card {
+  line-height: 2em;
+  color: #999;
+}
+
+.card .social-icons {
+  display: inline;
+  list-style: none;
+  padding-left: 0;
+}
+
+.card .icon-cell {
+  display: inline;
+  float: left;
+  width: 2.5em;
+  height: 2.5em;
+  color: #555;
+  background-color: #eee;
+  transition: all 0.3s;
+}
+
+.card .icon-cell:hover {
+  color: #fff;
+  background-color: #009999;
+}

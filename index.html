@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <title>Catalog-Z</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary" href="#"><i class="bi bi-film"></i> Catalog-Z</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="ms-auto d-flex justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-photos active" aria-current="page" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-videos" href="#">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-about" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-contact" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Banner -->
+    <div class="banner d-flex align-items-center">
+      <form class="row w-100 d-flex justify-content-center">
+        <div class="col col-4">
+          <div class="input-group">
+            <input class="form-control" type="search" placeholder="Search">
+            <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Header / page -->
+    <div class="row m-1 mt-5 main-color">
+      <div class="col col-6 text-start">
+        <h2>Latest Photos</h2>
+      </div>
+      <div class="col col-6 d-flex justify-content-end">Page <input id="page-number-input" type="text"> of 200</div>
+    </div>
+
+    <!-- Thumbnails -->
+    <!-- 1 to 4 -->
+    <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 m-1 gy-5">
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-03.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Clocks</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-04.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Plants</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-05.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Morning</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-06.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Pinky</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <!-- 5 to 8 -->
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-01.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Hangers</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-02.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Perfumes</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-07.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Bus</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-08.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">New York</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <!-- 9 to 12 -->
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-09.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Abstract</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-10.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Flowers</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-11.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Rosy</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-12.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Rocki</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <!-- 13 to 16 -->
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-13.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Purple</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-14.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Sea</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-15.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Turtle</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+      <div class="col col-auto">
+        <div class="row">
+          <div class="img-container">
+            <div class="col-12"><img src="./img/img-16.jpg"></div>
+            <div class="overlay d-flex justify-content-center align-items-center">Peace</div>
+          </div>
+          <div class="col-6 text-start card-text-left">18 Oct 2020</div>
+          <div class="col-6 text-end card-text-right">9,906 views</div>
+        </div>
+      </div>
+    </div>
+    <!-- End: Thumbnails -->
+
+    <!-- Page Navigation -->
+    <div class="row row-cols-sm-1 row-cols-md-3 m-1 mt-5 page-navi">
+      <div class="col col-auto text-sm-center text-md-start my-3">
+        <button class="btn btn-primary px-5 py-2" disabled='true'>Previous</button>
+      </div>
+      <div class="col col-auto text-center my-3">
+        <button class="btn btn-primary px-3 py-2 mx-1">1</button>
+        <button class="btn btn-inactive px-3 py-2 mx-1">2</button>
+        <button class="btn btn-inactive px-3 py-2 mx-1">3</button>
+        <button class="btn btn-inactive px-3 py-2 mx-1">4</button>
+      </div>
+      <div class="col col-auto text-sm-center text-md-end my-3">
+        <button class="btn btn-primary btn-darken px-5 py-2">Next Page</button>
+      </div>
+    </div>
+    <!-- End: Page Navigation -->
+  </main>
+  <div class="footer-bg">
+    <footer class="px-sm-0 px-md-5 py-3">
+      <div class="row row-cols-md-1 row-cols-lg-2">
+        <div class="col col-auto my-3 p-5">
+          <h4>About Catalog-Z</h4>
+          Catalog-Z is free <a class="link-primary" href="https://getbootstrap.com">Bootstrap 5</a> Alpha 2 HTML
+          Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration
+          with any kind of CMS website.
+        </div>
+        <div class="col col-auto my-3 p-5">
+          <div class="row row-cols-sm-1 row-cols-md-2 m-0 p-0">
+            <div class="col col-6 m-0 ps-0">
+              <h4>Our Links</h4>
+              <ul>
+                <li>Advertise</li>
+                <li>Support</li>
+                <li>Our Company</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="col col-6 d-flex flex-column align-items-end justify-content-between pe-0">
+              <div class="social-icons d-flex justify-content-end">
+                <div class="icon-cell d-flex justify-content-center align-items-center mx-1"><i class="bi bi-facebook"
+                    aria-hidden="true"></i></div>
+                <div class="icon-cell d-flex justify-content-center align-items-center mx-1"><i class="bi bi-twitter"
+                    aria-hidden="true"></i></div>
+                <div class="icon-cell d-flex justify-content-center align-items-center mx-1"><i class="bi bi-instagram"
+                    aria-hidden="true"></i></div>
+                <div class="icon-cell d-flex justify-content-center align-items-center mx-1"><i class="fa fa-pinterest"
+                    aria-hidden="true"></i></div>
+              </div>
+              <div>
+                <ul>
+                  <li>Terms of Use</li>
+                  <li>Privacy Policy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-md-2">
+        <div class="col col-auto px-5 text-start">Copyright 2021 ymloh. All rights reserved.</div>
+        <div class="col col-auto px-5 text-end">Designed by TemplateMo</div>
+      </div>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
