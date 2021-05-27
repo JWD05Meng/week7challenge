@@ -65,12 +65,16 @@ main {
   max-width:none;
 }
 
+.contactUs label {
+  color: #009999;
+}
+
 .contactUs input,
 .contactUs select {
   height: 3em;
 }
 
-.contactUs textarea {
+#f_message {
   height: 12em;
 }
 
@@ -80,11 +84,6 @@ main {
 
 .banner .input-group {
   width: 360px;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: #009999 !important;
 }
 
 .banner .btn {

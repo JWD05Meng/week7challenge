@@ -91,15 +91,27 @@
       <div class="col col-auto mb-5">
         <h3>Contact Page</h3>
         <form class="contactUs">
-          <input type="text" class="form-control my-4" placeholder="Name" name="name">
-          <input type="text" class="form-control my-4" placeholder="Email" name="name">
-          <select class="form-select my-4" aria-label="Default select example">
-            <option class="subject" selected>Subject</option>
-            <option value="marketing">Sales & Marketing</option>
-            <option value="design">Creative Design</option>
-            <option value="uiux">UI/UX</option>
-          </select>
-          <textarea type="text" class="form-control my-4" placeholder="Message" name="name"></textarea>
+          <div class="form-floating my-4">
+            <input type="text" class="form-control" placeholder="Name" name="name" id="f_name">
+            <label for="f_name">Name</label>
+          </div>
+          <div class="form-floating my-4">
+            <input type="text" class="form-control my-4" placeholder="Email" name="email" id="f_email">
+            <label for="f_email">Email</label>
+          </div>
+          <div class="form-floating my-4">
+            <select class="form-select my-4" aria-label="Default select example" name="subject" id="f_subject">
+              <option class="subject" selected>Please select a subject</option>
+              <option value="marketing">Sales & Marketing</option>
+              <option value="design">Creative Design</option>
+              <option value="uiux">UI/UX</option>
+            </select>
+            <label for="f_subject">Subject</label>
+          </div>
+          <div class="form-floating my-4">
+            <textarea type="text" class="form-control my-4" placeholder="Message" name="message" id="f_message"></textarea>
+            <label for="f_message">Message</label>
+          </div>
           <button type="Submit" class="btn btn-primary btn-darken px-5">Send</button>
         </form>
       </div>
