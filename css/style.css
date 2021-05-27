@@ -270,3 +270,20 @@ footer ul {
   color: #fff;
   background-color: #009999;
 }
+
+#narrowNav {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 200px;
+}
+
+#narrowNav .nav-link {
+  color: #555;
+}
+
+@media (min-width: 991.98px) {
+  #narrowNav {
+    display: none;
+  }
+}
