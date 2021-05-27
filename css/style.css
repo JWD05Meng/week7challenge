@@ -10,6 +10,7 @@ html {
 
 a {
   text-decoration: none;
+  color: #888;
 }
 
 a:hover {
@@ -290,7 +291,7 @@ footer ul {
   position: absolute;
   top: 50px;
   right: 0;
-  width: 200px;
+  width: 150px;
   z-index: 10;
 }
 
