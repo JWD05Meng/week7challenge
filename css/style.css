@@ -276,6 +276,7 @@ footer ul {
   top: 50px;
   right: 0;
   width: 200px;
+  z-index: 10;
 }
 
 #narrowNav .nav-link {
