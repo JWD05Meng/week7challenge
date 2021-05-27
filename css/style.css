@@ -57,9 +57,11 @@ main {
 
 .banner {
   background-image: url("../img/hero.jpg");
-  background-size: auto;
-  background-position-y: -420px;
-  background-position-x: 20%;
+  background-size: cover;
+  background-attachment: auto;
+  background-repeat: no-repeat;
+  background-position: calc(667/2400 * 100%) calc(537/1000 * 100%);
+  /* background-position-x: 20%; */
   height: 200px;
   width: 100%;
   max-width:none;
